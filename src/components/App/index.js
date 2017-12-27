@@ -1,11 +1,13 @@
 // src/components/App/index.js
-import React, { PropTypes, Component } from 'react';
+import React from 'react';
+// eslint-disable-next-line
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import logo from './logo.svg';
-import './style.css';
+import './style.scss';
 
-class App extends Component {
+class App extends React.Component {
   // static propTypes = {}
   // static defaultProps = {}
   // state = {}
