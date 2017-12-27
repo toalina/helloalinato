@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router';
 import classnames from 'classnames';
 
-import logo from './logo.svg';
 import './style.scss';
 
 class App extends React.Component {
