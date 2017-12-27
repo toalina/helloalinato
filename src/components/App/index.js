@@ -2,9 +2,9 @@
 import React from 'react';
 // eslint-disable-next-line
 import PropTypes from 'prop-types';
+import { Link } from 'react-router';
 import classnames from 'classnames';
 
-import logo from './logo.svg';
 import './style.scss';
 
 class App extends React.Component {
@@ -17,15 +17,23 @@ class App extends React.Component {
     return (
       <div className={classnames('App', className)} {...props}>
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ul>
+          <li><Link to='/about'>About</Link></li>
+          <li><Link to='/services'>Services</Link></li>
+          <li><Link to='/'>Home</Link></li>
+        </ul>
+        <div className='content-wrapper'>
+          { this.props.children }
+        </div>
       </div>
     );
   }
+}
+
+App.propTypes = {
+  children: PropTypes.node
 }
 
 export default App;
