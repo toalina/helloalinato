@@ -1,10 +1,12 @@
 // src/components/NotFound/index.js
-import React, { PropTypes, Component } from 'react';
+import React from 'react';
+// eslint-disable-next-line
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import './style.css';
+import './style.scss';
 
-export default class NotFound extends Component {
+export default class NotFound extends React.Component {
   // static propTypes = {}
   // static defaultProps = {}
   // state = {}
