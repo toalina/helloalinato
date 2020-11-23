@@ -1,14 +1,15 @@
-// src/index.js
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { browserHistory } from 'react-router';
-
-import Routes from './routes';
-
-import 'normalize.css';
-// import './index.css';
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import App from './routes/App'
+import ScrollToTop from './routes/ScrollToTop'
+// import ScrollMemory from 'react-router-scroll-memory'
 
 ReactDOM.render(
-  <Routes history={browserHistory} />,
+  <BrowserRouter>
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
+  </BrowserRouter>,
   document.getElementById('root')
-);
+)
