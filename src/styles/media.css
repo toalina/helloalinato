@@ -1,0 +1,97 @@
+/***
+  MEDIA Details Styles
+***/
+
+.media-section {
+  margin-top: 2rem;
+}
+
+.media-section h2 {
+  color: #9aabb9; /*nantucket*/
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.media-container {
+  margin-bottom: 2rem;
+}
+
+.media-container h3 {
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+}
+
+.media-container h4 {
+  margin-top: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.media-details-text {
+  margin: 2em 3em;
+}
+
+.media-details-text > p {
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+@media screen and (max-width: 863px) {
+  .media-details-text {
+    margin: 0.5em;
+  }
+  .media-details-text > p {
+  }
+}
+
+.media-link {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.spotify-container iframe {
+  margin: 0 auto;
+}
+
+.video-container {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .video-container {
+    margin: 0 3rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .video-container {
+    margin: 0 6rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  .video-container {
+    margin: 0 9rem;
+  }
+}
+
+

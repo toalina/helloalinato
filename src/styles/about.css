@@ -1,0 +1,60 @@
+/***
+  ABOUT Details Styles
+***/
+.about-feature-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-feature-image {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 640px) {
+  .about-feature-image {
+    margin-top: 0em;
+  }
+}
+
+.about-feature-image > img {
+  width: 400px;
+}
+
+.about-feature-image > p {
+  text-align: left;
+}
+
+.about-feature-text {
+  width: 400px;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.about-feature-text > p {
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+@media screen and (max-width: 863px) {
+  .about-feature-text {
+    width: 100%;
+    margin: 0.5em;
+  }
+  .about-feature-text > p {
+  }
+}
+
+.about-list ul {
+  margin-left: 0;
+}
+
+.about-list li {
+  letter-spacing: 0.1em;
+}
+

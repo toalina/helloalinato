@@ -1,0 +1,143 @@
+
+/***
+  SHOP Details Styles
+***/
+
+/*Intro*/
+.shop-details {
+  margin-bottom: 2rem;
+}
+.shop-details-intro {
+  margin: 2em 12em 1em 12em;
+  text-align: center;
+  font-size: 18px;
+}
+.shop-intro-image > img {
+width: 500px;
+}
+.shop-details-intro p {
+  margin-top: 1em;
+}
+
+.shop-section {
+  margin-top: 2em;
+  margin-left: 8em;
+  margin-right: 2em;
+  text-align: left;
+}
+.shop-section h2 {
+  color: #9aabb9; /*nantucket*/
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.shop-details-section-wrapper {
+  max-width: 800px;
+  margin-bottom: 2.2em;
+}
+.shop-details-section-wrapper h4 {
+  margin-top: 0.5em;
+}
+
+.mask-prices {
+  letter-spacing: 0.1em;
+}
+
+/*Body text*/
+.mask-prices,
+.shop-details-list,
+.shop-details-text-wrapper,
+.how-to-order-text-wrapper {
+  margin-left: 20px;
+}
+.shop-details-text-wrapper p,
+.shop-details-section-wrapper li {
+  /*font-size: 17px;*/
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: left;
+}
+.shop-details-section-wrapper p {
+  /*font-size: 16px;*/
+}
+
+.how-to-order-text-wrapper p {
+  font-size: 18px;
+}
+
+/*Styles for Images*/
+.shop-image {
+  margin-top: 1em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.shop-image > img {
+  width: 400px;
+}
+.shop-image > p {
+  font-size: 18px;
+}
+
+.feature-row-wrapper,
+.gallery-row-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature-image,
+.gallery-image {
+  margin-right: 0.3em;
+  max-width: 375px;
+}
+.feature-row-wrapper p,
+.gallery-row-wrapper p {
+  font-size: 18px;
+}
+
+.shop-link {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+.shop-details-list {
+  list-style: disc;
+  font-size: 16px;
+}
+#shop-menu {
+  margin-left: 0;
+}
+
+/*Small Screen*/
+@media screen and (max-width: 863px) {
+  .shop-details-intro {
+    margin: 1em;
+  }
+  .shop-section {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .shop-details-text-wrapper {
+    /*margin-left: 0px;*/
+    margin: 0.5em;
+  }
+  .shop-details-section-wrapper p,
+  .shop-details-section-wrapper li {
+    letter-spacing: 0em;
+  }
+
+  /*.shop-details-section-wrapper h4 {
+    margin-top: 1.5em;
+  }*/
+
+}

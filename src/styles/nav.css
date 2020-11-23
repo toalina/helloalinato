@@ -1,0 +1,146 @@
+/***
+  START Nav with topbar animation
+***/
+.topbar-responsive {
+  background-color: white;
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  /*font-size: 0.8em;*/
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.topbar-responsive .topbar-responsive-logo {
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+}
+
+.topbar-responsive .menu {
+  background: white; /*powderblue*/
+}
+
+.top-bar-right {
+  padding-top: 0.6em;
+}
+
+.dropdown.menu .has-submenu.opens-inner .submenu {
+  top: 200%;
+}
+
+.dropdown.menu .submenu.first-sub {
+  top: 200%;
+}
+
+.dropdown.menu .submenu {
+  min-width: 100px;
+}
+
+.topbar-responsive .menu li:last-of-type {
+  margin-right: 0;
+}
+
+.topbar-responsive .menu a {
+  transition: color 0.15s ease-in;
+  transition: color 0.15s ease-out;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.topbar-responsive .menu a:hover {
+
+}
+
+.topbar-responsive .menu .vertical li {
+  padding: 1em 0.5em;
+}
+
+.dropdown.menu .has-submenu a::after {
+  margin-top: 0.06em;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-responsive .menu a {
+    padding: 0.6rem 0 0.6rem 0.3rem;
+    display: block;
+  }
+  .topbar-responsive .menu .vertical li {
+    padding: 0.1em;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-responsive {
+    padding: 0.75rem;
+  }
+  .topbar-responsive .top-bar-title {
+    position: relative;
+    width: 100%;
+    padding: 0.2em;
+  }
+  .topbar-responsive .top-bar-title span {
+    position: absolute;
+    right: 0;
+    top: 1.5px;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-responsive-links {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    width: 100%;
+    -webkit-animation: fadeIn 1s ease-in;
+            animation: fadeIn 1s ease-in;
+  }
+}
+
+/***
+  END Nav with topbar animation
+***/

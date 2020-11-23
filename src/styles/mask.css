@@ -1,0 +1,107 @@
+/***
+  MASK Details Styles
+***/
+.mask-details {
+  margin-bottom: 2rem;
+}
+
+.mask-image {
+  margin-top: 1em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask-image > img {
+  width: 400px;
+}
+
+.mask-image > p {
+  font-size: 14px;
+}
+
+.mask-details-intro {
+  margin: 3em 12em 1em 12em;
+  text-align: left;
+  font-size: 18px;
+}
+
+.mask-section {
+  margin-top: 2em;
+  margin-left: 8em;
+  margin-right: 2em;
+  text-align: left;
+}
+
+.mask-section h2 {
+  color: #9aabb9; /*nantucket*/
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mask-details-section-wrapper {
+  max-width: 800px;
+  margin-bottom: 2.2em;
+}
+
+.mask-details-section-wrapper h4 {
+  margin-top: 0.5em;
+}
+
+.mask-details-text-wrapper {
+  margin-left: 20px;
+}
+
+.mask-details-text-wrapper p,
+.mask-details-section-wrapper li {
+  /*font-size: 17px;*/
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+.mask-link {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+#mask-menu {
+  margin-left: 0;
+}
+
+/*Small Screen*/
+@media screen and (max-width: 863px) {
+  .mask-details-intro {
+    margin: 1em;
+  }
+  .mask-section {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  .mask-details-text-wrapper {
+    /*margin-left: 0px;*/
+    margin: 0.5em;
+  }
+  .mask-details-section-wrapper p,
+  .mask-details-section-wrapper li {
+    letter-spacing: 0em;
+  }
+
+  .mask-details-section-wrapper h4 {
+    margin-top: 1.5em;
+  }
+}
+
+
+
+

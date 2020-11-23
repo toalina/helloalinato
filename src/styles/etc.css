@@ -1,0 +1,46 @@
+.etc-text-wrapper {
+  width: ;
+}
+
+.etc-text-wrapper {
+  margin: 0.5em 7em;
+}
+
+.etc-text-wrapper > p {
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+.etc-image {
+  margin-top: 1em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.etc-image > img {
+  width: 400px;
+}
+
+
+.etc-details video {
+  /*width: 320px;*/
+  height: 240px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 863px) {
+  .etc-text-wrapper {
+    margin: 0.5em;
+  }
+
+  .etc-details video {
+    /*max-width: 320px;*/
+  }
+}

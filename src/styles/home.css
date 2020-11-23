@@ -1,0 +1,81 @@
+/***
+  Home Details Styles
+***/
+.shows-list-title {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 640px) {
+  .shows-list-title {
+    margin-top: 0.5em;
+  }
+}
+
+.shows-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.shows-list {
+}
+
+.show-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding: 0.5em;
+  transition: background-color 0.5s ease;
+}
+
+.show-container:hover {
+}
+
+@media screen and (max-width: 640px) {
+  .show-text-link > a {
+    color: #5c666f; /*nantucket*/
+    border-bottom: 2px solid #9aabb9;
+  }
+}
+
+
+.show-icon-wrapper {
+  margin-right: 0.8em;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 640px) {
+  .show-icon-wrapper {
+    margin-right: 0.5em;
+    margin-top: 0.3em;
+  }
+}
+
+.icon-violin {
+  min-width: 37px !important;
+}
+
+@media screen and (max-width: 640px) {
+  .icon-violin {
+    min-width: 27px !important;
+  }
+}
+
+.show-text-wrapper {
+  text-align: left;
+}
+
+.show-text-date {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.home-contact-text {
+  margin: 2em auto;
+}
+
+.home-contact-text > a {
+  margin-right: 0.5em;
+}
+
