@@ -46,7 +46,6 @@ class MaskDetails extends React.Component {
         </ul>
 
         <section className='mask-section'>
-
           <div className='mask-details-section-wrapper' id='features'>
             <h2>Mask Features</h2>
             <ul>
@@ -61,12 +60,10 @@ class MaskDetails extends React.Component {
           <div className='mask-details-section-wrapper' id='materials'>
             <h2>Materials</h2>
             <p><em>For reference if you need to replace.</em></p>
-
             <h4>Fabric</h4>
             <ul>
               <li>100% Cotton</li>
             </ul>
-
             <h4>Nose Wire</h4>
             <ul>
               <li>Fuzzy craft pipe cleaner.</li>
@@ -74,12 +71,10 @@ class MaskDetails extends React.Component {
               <li>Single wire folded in half, twisted, fold in raw end.</li>
               <li>Remove before washing mask.</li>
             </ul>
-
             <h4>Ear Loops</h4>
             <ul>
               <li>Elastic cord</li>
             </ul>
-
             <h4>Ties</h4>
             <ul>
               <li>100% cotton cord</li>
@@ -101,7 +96,6 @@ class MaskDetails extends React.Component {
 
           </div>
           <div className='mask-details-section-wrapper' id='wear'>
-
             <h2>How to Wear the Mask</h2>
             <div className='mask-image'>
               <img src='../masks/gray_dots_loops.jpg' alt='Mask with adjustable ear loops' />
