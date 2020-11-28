@@ -58,7 +58,7 @@ const App = () => (
     <footer className='footer-wrapper'>
       <ul className='bottom-nav-wrapper'>
         <li><a href='https://www.instagram.com/geniuspluslove/' target='_blank' rel='noopener noreferrer'><i className='fab fa-instagram fa-2x' /></a></li>
-        <li><a href='https://www.instagram.com/alinasew/' target='_blank' rel='noopener noreferrer'><i class="fas fa-seedling fa-2x"></i></a></li>
+        <li><a href='https://www.instagram.com/alinasew/' target='_blank' rel='noopener noreferrer'><i className="fas fa-seedling fa-2x"></i></a></li>
         <li><a href='https://www.instagram.com/alinadough/' target='_blank' rel='noopener noreferrer'><i className='fas fa-bread-slice fa-2x' /></a></li>
         <li><a href='https://www.linkedin.com/in/alinato/' target='_blank' rel='noopener noreferrer'><i className='fab fa-linkedin fa-2x' /></a></li>
         <li><a href='https://github.com/toalina' target='_blank' rel='noopener noreferrer'><i className='fab fa-github fa-2x' /></a></li>

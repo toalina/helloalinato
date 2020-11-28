@@ -36,32 +36,29 @@ class ShopDetails extends React.Component {
               <p>All masks are final sale and may not be returned or exchanged.</p>
 
             </div>
-            {/*
-            <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
-          */}
 
           </div>
 
           <div className='shop-details-section-wrapper' id='features'>
             <h2>Mask Features</h2>
-            <div class="feature-row-wrapper">
-              <div class="shop-image feature-image">
+            <div className="feature-row-wrapper">
+              <div className="shop-image feature-image">
                 <img src='../masks/gray_dots_ties.jpg' alt='Gray dots mask with ties' />
                 <p>Mask with ties</p>
               </div>
-              <div class="shop-image feature-image">
+              <div className="shop-image feature-image">
                 <img src='../masks/gray_dots_ties_inside.jpg' alt='Gray dots mask with ties inside' />
                 <p>Mask with ties inside</p>
               </div>
-              <div class="shop-image feature-image">
+              <div className="shop-image feature-image">
                 <img src='../masks/gray_dots_filter.jpg' alt='Gray dots mask filter opening' />
                 <p>Filter opening</p>
               </div>
-              <div class="shop-image feature-image">
+              <div className="shop-image feature-image">
                 <img src='../masks/gray_dots_loops.jpg' alt='Gray dots mask with ear loops' />
                 <p>Mask with ear loops</p>
               </div>
-              <div class="shop-image feature-image">
+              <div className="shop-image feature-image">
                 <img src='../masks/gray_dots_loops_closeup.jpg' alt='Gray dots mask with loops close up' />
                 <p>Adjustable ear loops</p>
               </div>
@@ -95,7 +92,7 @@ class ShopDetails extends React.Component {
             <h2>How to Order</h2>
             <div className='how-to-order-text-wrapper'>
               <h5>Option A</h5>
-              <h6>Send Alina an email to <a href='mailto:alina.to@gmail.com?subject=Alinagami Mask Order (from helloalinato.com/shop)' target='_blank' rel='noopener noreferrer' class='shop-link'>[alina.to@gmail.com]</a> with the following info:</h6>
+              <h6>Send Alina an email to <a href='mailto:alina.to@gmail.com?subject=Alinagami Mask Order (from helloalinato.com/shop)' target='_blank' rel='noopener noreferrer' className='shop-link'>[alina.to@gmail.com]</a> with the following info:</h6>
 
               <ul className='shop-details-list'>
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
@@ -107,7 +104,7 @@ class ShopDetails extends React.Component {
 
               </ul>
               <h5>Option B</h5>
-              <h6>You can also send a direct message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram to order.</h6>
+              <h6>You can also send a direct message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" className="shop-link">[@alinasew]</a> on Instagram to order.</h6>
             </div>
           </div>
 
@@ -115,14 +112,13 @@ class ShopDetails extends React.Component {
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                <strong>[11-19-2020] These are currently available mask fabrics.</strong>
+                <strong>Currently available mask fabrics.</strong>
                 <br/>
-                Follow <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram for new mask fabrics and volumes announcements.
+                Follow <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" className="shop-link">[@alinasew]</a> on Instagram for new mask fabrics and volumes announcements.
                 <br/>
                 Please refer to <Link to='#how-to-order' className='shop-link'>[How to Order]</Link> to place an order. Thank you!
               </p>
             </div>
-
             <div className="gallery-row-wrapper">
               <div className='shop-image gallery-image'>
                 <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />

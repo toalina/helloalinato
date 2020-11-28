@@ -60,33 +60,33 @@ class MusicDetails extends React.Component {
 
         <p><Link to='/contact'><i class='far fa-envelope fa-2x' /></Link></p>
 
-        <section class='media-section'>
+        <section className='media-section'>
           <h2>Media</h2>
-          <div class='media-container'>
-            <div class='video-container'>
+          <div className='media-container'>
+            <div className='video-container'>
               <iframe title='ODESZA KEXP in-studio performance' width='854' height='480' src='https://www.youtube.com/embed/aGVU_1Udhrs' frameborder='0' scrolling='no' allowfullscreen />
             </div>
             <h3>ODESZA KEXP In-Studio Performance</h3>
             <h4>Recorded September, 2017</h4>
           </div>
-          <div class='media-container'>
-            <div class='video-container'>
+          <div className='media-container'>
+            <div className='video-container'>
               <iframe title='Amanda Palmer Jherek Bischoff Usman Riaz' src='https://embed.ted.com/talks/lang/en/amanda_palmer_jherek_bischoff_usman_riaz_space_oddity' width='854' height='480' frameborder='0' scrolling='no' allowfullscreen />
             </div>
             <h3>Amanda Palmer, Jherek Bischoff & Usman Riaz "Space Oddity" at TED2016</h3>
             <h4>Recorded February, 2016</h4>
           </div>
 
-          <div class='media-container'>
-            <div class='spotify-container'>
+          <div className='media-container'>
+            <div className='spotify-container'>
               <iframe title='Fleet Foxes - Bedouin Dress' src='https://open.spotify.com/embed/track/2hCeyomux4cPBYNriygKUS' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media' />
             </div>
             <h3>Fleet Foxes</h3>
             <h4>"Bedouin Dress" from "Helplessness Blues"</h4>
           </div>
 
-          <div class='media-container'>
-            <div class='spotify-container'>
+          <div className='media-container'>
+            <div className='spotify-container'>
               <iframe title='Jherek Bischoff - Cistern' src='https://open.spotify.com/embed/track/4tMU9USBCh3hrLYQF0UYUY' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media' />
             </div>
             <h3>Jherek Bischoff</h3>
